@@ -1,0 +1,130 @@
+
+body{
+    background-image: url('./galaxy-night-landscape.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:  0px;
+    height: 110vh;
+    overflow-x: hidden;
+}
+
+header{
+    padding: 20px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    position: sticky;
+    top: 0px;
+}
+
+.logo{
+    width: 180px;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.8s;
+
+}
+
+.logo:hover{
+    color: cornflowerblue;
+}
+
+.navbar{
+    width: 400px;
+    font-size: large;
+    position: absolute;
+    right: 20px;
+    display: inline-block;
+    transition: all 0.5s;
+}
+.navbar>a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.navbar>a:hover{
+    color: goldenrod;
+}
+
+.heading{
+    color: rgb(85, 179, 213);
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Unbounded', cursive;
+    font-size: 90px;
+    font-weight: 900px;
+    position: relative;
+    top: 40px;
+    left: 60px;
+    width: 1000px;
+}
+    
+.heading+h3{
+    width: 300px;
+    color: rgba(246, 184, 162, 0.716);
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    left: 70px;
+}
+.heading+h3+p{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    position: relative;
+    left: 70px;
+    bottom: 60px;
+
+}
+
+.heading+h3+p+span{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 70px;
+    bottom: 80px;
+}
+
+#strange{
+    color: aliceblue;
+    width: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    position: relative;
+    left: 425px;
+    bottom: 80px;
+}
+.btn{
+    width: 140px;
+    padding: 10px;
+    position: relative;
+    left: 70px;
+    bottom: 100px;
+    background-color: rgb(113, 184, 210);
+    color:black;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 590;
+    font-size: larger;
+    cursor: pointer;
+    transition: all 0.7s;
+    border-radius: 100px;
+    
+}
+.btn:hover{
+    background-color: rgb(62, 119, 140);
+}
+
+footer{
+    color:white;
+    position: fixed;
+    bottom: 0px;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    font-weight: 500;
+}
+
+
+
